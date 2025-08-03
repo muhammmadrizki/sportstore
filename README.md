@@ -1,6 +1,6 @@
-# Amazing Safari
+# Sport Store
 
-[Amazing Safari](https://sportstore.muhammadrizkikurniaputra.com) online store for sport merchandise.
+[Sport Store](https://sportstore.muhammadrizkikurniaputra.com) online store for sport merchandise.
 
 ## Links
 
