@@ -9,13 +9,13 @@
 
 Repositories:
 
-- General: <https://github.com/bear-mentor/amazingsafari>
-- Backend API: <https://github.com/bear-mentor/amazingsafari-api>
-- Frontend Web: <https://github.com/bear-mentor/amazingsafari-web>
+- General: <https://github.com/muhammmadrizki/sportstore>
+- Backend API: <https://github.com/muhammmadrizki/sportstore-api>
+- Frontend Web: <https://github.com/muhammmadrizki/sportstore-web>
 
 Inspirations:
 
-- <https://safariwonders.com>
+- <https://store.manutd.com>
 - <https://tamansafari.com>
 - <https://stlzoo.org/services/gift-shops/zoo-merchandise>
 
