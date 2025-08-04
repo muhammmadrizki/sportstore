@@ -16,8 +16,6 @@ Repositories:
 Inspirations:
 
 - <https://store.manutd.com>
-- <https://tamansafari.com>
-- <https://stlzoo.org/services/gift-shops/zoo-merchandise>
 
 ## Architecture & Tech Stack
 
@@ -53,7 +51,6 @@ Inspirations:
 - Home page
   - Hero section
   - Products catalogue
-  - Example: <https://safariwonders.com/product-animal>
 - Product page
   - Image
   - SKU (stock keeping unit)
@@ -75,7 +72,7 @@ Inspirations:
 
 ## UI Designs
 
-- Figma: <https://figma.com/design/TC8pwzy5HpWoFAQWJpN6IJ/amazingsafari.haidar.dev>
+- Figma: <...>
 
 ### Home Page
 
@@ -87,7 +84,7 @@ Inspirations:
 
 ## REST API Endpoints
 
-- Production: `https://amazingsafari.haidar.dev`
+- Production: `https://sportstore-api.muhammadrizkikurniaputra.com`
 - Local: `http://localhost:3000`
 
 | Endpoint         | HTTP     | Description               |
