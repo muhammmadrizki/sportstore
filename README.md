@@ -16,8 +16,9 @@ Repositories:
 Inspirations:
 
 - <https://store.manutd.com>
-- <https://tamansafari.com>
+- <https://shop.bvb.de>
 - <https://stlzoo.org/services/gift-shops/zoo-merchandise>
+- <https://store.acmilan.com>
 
 ## Architecture & Tech Stack
 
@@ -53,7 +54,7 @@ Inspirations:
 - Home page
   - Hero section
   - Products catalogue
-  - Example: <https://safariwonders.com/product-animal>
+  - Example: <https://sportstore.muhammadrizkikurniaputra.com/products>
 - Product page
   - Image
   - SKU (stock keeping unit)
@@ -65,17 +66,8 @@ Inspirations:
   - Product items to buy
     - Image, name, price, quantity, total (price x quantity)
     - Remove item
-  - Link: continue shopping, go to products catalogue
-  - Link: checkout
-- Checkout page
-  - Order summary
-    - Product items to buy
-    - Grand total of all product items to buy
-- Place order / transaction is being processed
+ 
 
-## UI Designs
-
-- Figma: <https://figma.com/design/TC8pwzy5HpWoFAQWJpN6IJ/amazingsafari.haidar.dev>
 
 ### Home Page
 
@@ -87,7 +79,7 @@ Inspirations:
 
 ## REST API Endpoints
 
-- Production: `https://amazingsafari.haidar.dev`
+- Production: `https://sportstore-api.muhammadrizkikurniaputra.com`
 - Local: `http://localhost:3000`
 
 | Endpoint         | HTTP     | Description               |
@@ -98,7 +90,7 @@ Inspirations:
 | `/products`      | `POST`   | Add new product           |
 | `/products`      | `DELETE` | Delete all products       |
 | `/products/:id`  | `DELETE` | Delete product by id      |
-| `/products/:id`  | `PUT`    | Update product by id      |
+| `/products/:id`  | `PATCH`    | Update product by id      |
 
 ### Product
 
