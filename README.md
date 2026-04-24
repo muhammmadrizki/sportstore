@@ -16,8 +16,7 @@ Repositories:
 Inspirations:
 
 - <https://store.manutd.com>
-- <https://tamansafari.com>
-- <https://stlzoo.org/services/gift-shops/zoo-merchandise>
+- <https://store.acmilan.com>
 
 ## Architecture & Tech Stack
 
@@ -53,7 +52,8 @@ Inspirations:
 - Home page
   - Hero section
   - Products catalogue
-  - Example: <https://safariwonders.com/product-animal>
+  - Example : <https://sportstore.muhammadrizkikurniaputra.com/products>
+
 - Product page
   - Image
   - SKU (stock keeping unit)
@@ -134,3 +134,5 @@ Response Body:
   "colors": "white"
 }
 ```
+
+[def]: https://safariwonders.com/product-animal
