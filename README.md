@@ -1,6 +1,18 @@
 # Sport Store
 
-[Sport Store](https://sportstore.muhammadrizkikurniaputra.com) online store for sport merchandise.
+[Sport Store](https://sportstore.muhammadrizkikurniaputra.com) Sport Store is a fullstack e-commerce web application for sports merchandise.
+
+## Role
+
+Fullstack Developer (Solo Project)
+
+## Key Features
+
+- Browse product catalogue
+- View product details
+- Add products to cart
+- Remove items from cart
+- REST API with authentication
 
 ## Links
 
@@ -16,11 +28,6 @@ Repositories:
 Inspirations:
 
 - <https://store.manutd.com>
-<<<<<<< HEAD
-=======
-- <https://shop.bvb.de>
-- <https://stlzoo.org/services/gift-shops/zoo-merchandise>
->>>>>>> 439838063acee4397130e98a95a3c51b81f791ae
 - <https://store.acmilan.com>
 
 ## Architecture & Tech Stack
@@ -57,12 +64,8 @@ Inspirations:
 - Home page
   - Hero section
   - Products catalogue
-<<<<<<< HEAD
   - Example : <https://sportstore.muhammadrizkikurniaputra.com/products>
 
-=======
-  - Example: <https://sportstore.muhammadrizkikurniaputra.com/products>
->>>>>>> 439838063acee4397130e98a95a3c51b81f791ae
 - Product page
   - Image
   - SKU (stock keeping unit)
@@ -74,31 +77,36 @@ Inspirations:
   - Product items to buy
     - Image, name, price, quantity, total (price x quantity)
     - Remove item
- 
-
 
 ### Home Page
 
-<img alt="Home Page" src="./designs/home.jpg" width="400" />
+<img alt="Home Page" src="/assets/sportstore.png" width="400" />
 
-## Entity Relationship Diagram (ERD)
+## Figma
 
-![ERD](./diagrams/erd.svg)
+<https://www.figma.com/design/YZDhkU0lWEfYuVJadpIIy0/Sportstore---ecommerce?node-id=61-2&t=yTx4MTy4LtjzKg2v-1>
 
 ## REST API Endpoints
 
 - Production: `https://sportstore-api.muhammadrizkikurniaputra.com`
 - Local: `http://localhost:3000`
 
-| Endpoint         | HTTP     | Description               |
-| ---------------- | -------- | ------------------------- |
-| `/products`      | `GET`    | Get all products          |
-| `/products/:id`  | `GET`    | Get product by id         |
-| `/products/seed` | `POST`   | Seed all initial products |
-| `/products`      | `POST`   | Add new product           |
-| `/products`      | `DELETE` | Delete all products       |
-| `/products/:id`  | `DELETE` | Delete product by id      |
-| `/products/:id`  | `PATCH`    | Update product by id      |
+| Endpoint           | HTTP  | Description         |
+| ------------------ | ----- | ------------------- |
+| `/products`        | `GET` | Get all products    |
+| `/products/{slug}` | `GET` | Get product by slug |
+
+## 🔐 Authentication & User Endpoints
+
+| Endpoint       | Method | Permission    | Description                  |
+| -------------- | ------ | ------------- | ---------------------------- |
+| /              | GET    | Public        | Root endpoint / health check |
+| /users         | GET    | Public        | Get all users                |
+| /users/{id}    | GET    | Public        | Get user by ID               |
+| /auth/register | POST   | Public        | Register new user            |
+| /auth/login    | POST   | Public        | Login user                   |
+| /auth/me       | GET    | Authenticated | Get current user profile     |
+| /auth/logout   | POST   | Authenticated | Logout user                  |
 
 ### Product
 
@@ -134,5 +142,3 @@ Response Body:
   "colors": "white"
 }
 ```
-
-[def]: https://safariwonders.com/product-animal
